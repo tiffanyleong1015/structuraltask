@@ -1,0 +1,55 @@
+*{
+    font-family: "Calibri", sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+    margin: 2px 2px 2px 2px;
+    
+}
+
+header{
+    color: black;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a{
+    font-size: 1.25rem;
+}
+nav a:hover{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;   
+}
+
+#intro{
+    width: 80vw;
+    padding-left: 10px;
+}
+
+#left{
+    width: 9vw;
+}
+
+#right{
+    width: 9vw;
+    object-fit: contain;
+}
